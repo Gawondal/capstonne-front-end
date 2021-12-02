@@ -15,7 +15,7 @@ export default function Login() {
             setError(true);
             setErrorMessage('Error: All fields must be filled in!');
         } else {
-            fetch('http://127.0.0.1:5000/user/verify', {
+            fetch('https://didi-project-derriere.herokuapp.com/user/verify', {
                 method: "POST",
                 headers: {"content-type" : "application/json"},
                 body: JSON.stringify({
