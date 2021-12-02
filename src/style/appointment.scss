@@ -1,0 +1,11 @@
+.appointment-container {
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 30px;
+    color:red;
+    
+
+    .appointment-btn {
+        @include btn;
+    }
+}

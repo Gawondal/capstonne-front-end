@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%; 
+    background-color:aqua ;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    font-family: 'montserrat';
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+    background-color: aqua;
+}
+
+@import './mixins.scss';
+@import './navBar.scss';
+@import './home.scss';
+@import './add-appointment.scss';
+@import './sign-up.scss';
+@import './appointment.scss';
+@import './media-queries.scss';

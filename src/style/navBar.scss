@@ -1,0 +1,15 @@
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    
+    .nav-link-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 16px;
+        width: 40vw;
+        text-decoration: underline;
+        color: gray;
+
+
+    }
+}

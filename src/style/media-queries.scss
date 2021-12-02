@@ -1,0 +1,25 @@
+@media (max-width: 615px) {
+    .navigation-container{
+        flex-direction: column;
+        .nav-link-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items:center ;
+            justify-content: center;
+            font-size: 14px;
+        
+        }
+    }
+    .home-page-container{
+
+        #home-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a {
+                flex-direction: column;
+            }
+        }
+    }
+}
